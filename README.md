@@ -1,5 +1,5 @@
 # Project-Proposal-ICS-113
 
-Group
-Cabe, Arlan Jr.
-Gaw, Sean Jeremy Austin N.
+<h1>Group <br></h1>
+Cabe, Arlan Jr. <br>
+Gaw, Sean Jeremy Austin N. <br>
