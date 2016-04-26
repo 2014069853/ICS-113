@@ -1,4 +1,4 @@
-# Final-Project-Prototype-Proposal-ICS-113
+# Final-Project-ICS-113
 
 <strong>Group</strong><br>
 Cabe, Arlan Jr. <br>
