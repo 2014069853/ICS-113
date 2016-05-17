@@ -1,0 +1,147 @@
+@CHARSET "ISO-8859-1";
+
+nav header {
+	display: block;
+}
+
+html, body, h1, ul, li, a, p, header, nav, section, article{
+	padding: 0;
+	margin: 0;
+}
+
+#topheader {
+	background-color: #2b78e4;
+	padding: 10px 20px;
+	color: white;
+	font-family: AR Julian, serif;
+	margin: 0 auto;
+}
+
+p a {
+	color: black;
+	font-size: 12px;
+	font-variant: small-caps;
+}
+
+nav {
+	height: 39px;
+	background-color: #20416c;
+	/*padding: 3px;*/
+}
+
+#navBar {
+	width: 960px;
+	/*margin: 0 auto;*/
+}
+
+#navBar ul {
+	/*margin: 0 auto;*/
+	height: 35px;
+	list-style: none;
+}
+
+#navBar li {
+	float: left;
+	height: 35px;
+	margin-left: 10px;
+}
+
+li a {
+	font-size: 90%;
+	display: inline-block;
+	color: white;
+	padding: 10px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #2b78e4; 
+	text-decoration: underline;
+}
+
+/*li {
+	display: inline;
+	margin-left: 15px;
+	margin-right: 6px;
+	font-size: 15px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+*/
+
+body {
+	/*width: 960px;*/
+	margin-left: auto;
+	margin-right: auto;
+	margin: 0 auto;
+}
+
+tbody {
+	width: 960px;
+	/*background-color: #CCC;*/
+	min-height: 500px;
+	margin: 0 auto;
+	/*box-shadow: 0px 5px 3px 3px #333;*/
+	font-family: Times New Roman, sans-serif
+
+}
+
+#leftCol {
+	width: 25%;
+	/*background-color: #0FF;*/
+	min-height: 500px;
+	float: left;
+	border-right: #333 solid thin; 
+	border-bottom: #333 solid thin; 
+}
+
+#midCol {
+	width: 50%;
+	/*background-color: #FF0;*/
+	min-height: 500px;
+	float: left;
+	border-right: #333 solid thin; 
+	position: relative;
+	top:3%;
+	
+}
+
+#rightCol {
+	width: 24%;
+	/*background-color: #0000FF;*/
+	min-height: 500px;
+	float: left;
+}
+
+.colHeader {
+	width: 90%;
+	background-color: #FFF;
+	height: 30px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 10px;
+	border-bottom-left-radius: 10px; 
+	border-bottom-right-radius: 10px;
+	box-shadow: 0px 3px 3px 1px #333;
+}
+
+article {
+	background-color: white;
+	margin: 2px;
+	padding: 10px 15px;
+}
+
+#more {
+	
+}
+
+footer {
+	clear: both;
+	height: 30px;
+	background-color: #2b78e4;
+	color: #FFF;
+	text-align: center;
+	font-size: 11px; 
+	padding-top: 15px;
