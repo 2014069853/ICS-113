@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reset Password - Login</title>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/logfinal.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="/jquery/reset.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0\css\font-awesome.css">
+    </head>
+    <style>
+        * {
+            color: #000000;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            font-family: sans-serif;
+        }
+        .form-gap {
+            padding-top: 50px;
+        }
+        p {
+            font-size: 13px;
+            color: #808080
+        }
+        a {
+            font-size: 12px;
+            float: left;
+            margin-top: 5px;
+        }
+
+        .limit {
+          width: 100%;
+          margin: 0 auto;
+        }
+
+        .container {
+          width: 100%;
+          min-height: 83vh;
+          padding: 15px;
+
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          position: relative;
+          z-index: 1;
+        }
+    </style>
+    <body style="background-image: url('img/bg-02.jpg');">
+    <div class="limit">
+        <div class="form-gap"></div>
+        <div class="form-gap"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-xs-12"></div>
+                    <div class="col-md-4 col-xs-12" style="background-color: white; border-radius: 1%;">
+                        <div class="panel panel-default">
+                            <div class="panel-body">
+                                <div class="text-center">
+                                    <br>
+                                    <h3><i class="fa fa-lock fa-4x" style="color:black;"></i></h3>
+                                    <h2 class="text-center">Reset Password</h2>
+                                    <small class="form-text text-muted">Please enter the email address registered on your account.</small>
+                                    <p></p>
+                                    <div class="panel-body">
+                                        <form id="register-form" role="form" autocomplete="off" class="form" method="post">
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope color-blue"></i></span>
+                                                    <input type="email" class="form-control" name="email" id="email" placeholder="Email address" required="required">
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="submit" name="recover-submit" class="btn btn-primary btn-block" value="Send">
+                                                &nbsp;<a href="LoginV3.html">Remember Password?</a>
+                                            </div>
+                                            <input type="hidden" class="hide" name="token" id="token" value="">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12"></div>
+                </div>
+            </div>
+    </div>
+    </body>
+</html>
+
